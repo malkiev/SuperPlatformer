@@ -10,6 +10,7 @@ public class SFXCtrl : MonoBehaviour {
 
 	void Awake()
 	{
+		//singleton
 		if (instance == null)
 			instance = this;
 	}
